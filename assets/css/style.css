@@ -35,7 +35,7 @@ header h1 {
   margin: 10; 
 }
 
-  nav ul {
+nav ul {
   display: flex;
   list-style: none;
 }
@@ -51,3 +51,22 @@ nav a {
   text-decoration: none;
   border-bottom: 5px solid #3be5eb;
 }
+
+.hero-banner {
+  background: url(/assets/images/02-hero-bg.jpg) center/cover no-repeat;
+  height: 300px;
+  position:relative;
+
+}
+
+.hero-content {
+  text-align: right;
+  position: absolute;
+  bottom: 20px;
+  right: 200px;
+  padding: 0px;
+  background-color: #3be5eb;
+  font-size: 30px;
+  color: #31343d;
+}
+
