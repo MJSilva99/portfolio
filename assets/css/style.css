@@ -17,6 +17,8 @@ body {
   line-height: 1.5;
 }
 
+/* Header and nav styles */
+
 header {
   background-color: #31343d; /* Header background color */
   display: flex;
@@ -52,6 +54,7 @@ nav a {
   border-bottom: 5px solid #3be5eb;
 }
 
+/*Hero styles */
 .hero-banner {
   background: url(../images/02-hero-bg.jpg) center/cover no-repeat;
   height: 300px;
@@ -70,6 +73,8 @@ nav a {
   font-size: 30px;
   color: #31343d;
 }
+
+/* wrapper and section style */
 
 .page-wrapper {
   max-width: 100%;
@@ -188,20 +193,21 @@ nav a {
 .contact-info {
   display: flex;
   flex-direction: row;
-  justify-content: center; /* Horizontally center align the content */
+  justify-content: center; 
   align-items: center;
-  margin-top: 100px; /* Add some spacing from the section title */
+  margin-top: 100px; 
   margin-left: 100px;
 }
 
 .contact-info p, .contact-info a {
-  margin: 10px 100px; /* Add spacing between the items */
+  margin: 10px 100px; 
   font-size: 24px;
   color: #31343d;
   text-decoration: none;
   border-bottom: 5px solid #31343d
 }
 
+/* Styles for laptop to deskptop view (in screenshot of readme) */
 @media (min-width: 1280px) and (max-width: 2550px) {
  
 
@@ -266,3 +272,65 @@ nav a {
   }
 }
   
+/* Styles for screens from 0px to 768px (Mobile) */
+@media (max-width: 768px) {
+  p {
+    margin: 20px;
+    font-size: 16px;
+  }
+
+  header h1 {
+    font-size: 30px;
+    padding: 0 10px;
+  }
+
+  nav a {
+    font-size: 20px;
+    border-bottom: 3px solid #3be5eb;
+  }
+
+  .hero-content {
+    font-size: 20px;
+  }
+
+  .hero-banner {
+    height: 200px;
+    width: 100%;
+    position: relative;
+  }
+
+  .page-wrapper {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  .page-section h2, .page-section h4 {
+    font-size: 24px;
+  }
+
+  .project-grid {
+    gap: 10px;
+    width: 100%;
+  }
+
+  .project-item {
+    padding: 20px;
+    min-height: 200px;
+  }
+
+  .project-description h3 {
+    font-size: 20px;
+  }
+
+  .project-description p {
+    font-size: 14px;
+  }
+
+  .contact-info p, .contact-info a {
+    margin: 10px 75px;
+    font-size: 20px;
+    border-bottom: 3px solid #31343d;
+  }
+}
+
