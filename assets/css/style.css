@@ -208,7 +208,7 @@ nav a {
 }
 
 /* Styles for laptop to deskptop view (in screenshot of readme) */
-@media (min-width: 1280px) and (max-width: 2550px) {
+@media only screen and  (min-width: 1280px) and (max-width: 2550px) {
  
 
   p {
@@ -273,7 +273,7 @@ nav a {
 }
   
 /* Styles for screens from 0px to 768px (Mobile) */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   p {
     margin: 20px;
     font-size: 16px;
