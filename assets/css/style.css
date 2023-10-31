@@ -70,3 +70,25 @@ nav a {
   color: #31343d;
 }
 
+.page-wrapper {
+  padding-left: 200px; 
+  padding-top: 10px;
+
+}
+
+.page-section {
+  display:flex;
+  align-items: flex-start;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.page-section h2 {
+  text-align: right;
+  padding-top: 20px;
+  min-width: 220px; 
+  font-size: 60px;
+  color: #31343d
+}
+
+
