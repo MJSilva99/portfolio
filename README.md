@@ -11,6 +11,7 @@ This is a portfolio showcasing my projects. Currently the portfolio only has one
 * When viewing the section about my work the section contains titled images of my applications
 * When presented with the first application the image is larger in size than the others
 * When images of the applications are clicked then the user is taken to that deployed application (only applicable to one project so far)
+* When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
 
 ## Installation
 No installation is required to view the website in a web browser. The website is accessible through the deployed GitPage link below or you can download the project files and open index.html in a web browser of your choice.
