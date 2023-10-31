@@ -83,7 +83,7 @@ nav a {
   margin-bottom: 100px;
 }
 
-.page-section h2 {
+.page-section h2, .page-section h4 {
   text-align: right;
   padding-top: 20px;
   min-width: 220px; 
