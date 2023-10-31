@@ -201,3 +201,68 @@ nav a {
   text-decoration: none;
   border-bottom: 5px solid #31343d
 }
+
+@media (min-width: 1280px) and (max-width: 2550px) {
+ 
+
+  p {
+    margin: 50px;
+    font-size: 18px;
+    color: #31343d;
+  }
+
+  header h1 {
+    font-size: 36px;
+    padding: 0 10px;
+  }
+
+  nav a {
+    font-size: 20px;
+    border-bottom: 3px solid #3be5eb;
+  }
+
+  .hero-content {
+    font-size: 20px;
+  }
+
+  .hero-banner {
+    height: 200px;
+    width: 100%;
+    position:relative;
+  
+  }
+
+  .page-wrapper {
+    max-width: 100%;
+    padding-left: 10px; 
+    padding-top: 10px;
+  
+  }
+
+  .page-section h2, .page-section h4 {
+    font-size: 28px;
+  }
+
+  .project-grid {
+    gap: 10px;
+  }
+
+  .project-item {
+    padding: 20px;
+  }
+
+  .project-description h3 {
+    font-size: 20px;
+  }
+
+  .project-description p {
+    font-size: 14px;
+  }
+
+  .contact-info p, .contact-info a {
+    margin: 10px 75px;
+    font-size: 20px;
+    border-bottom: 3px solid #31343d;
+  }
+}
+  
