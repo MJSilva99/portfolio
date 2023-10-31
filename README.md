@@ -11,14 +11,19 @@ This is a portfolio showcasing my projects. Currently the portfolio only has one
 * When viewing the section about my work the section contains titled images of my applications
 * When presented with the first application the image is larger in size than the others
 * When images of the applications are clicked then the user is taken to that deployed application (only applicable to one project so far)
-* When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
 
 ## Installation
 No installation is required to view the website in a web browser. The website is accessible through the deployed GitPage link below or you can download the project files and open index.html in a web browser of your choice.
 
+[Portfolio GitPage ](https://mjsilva99.github.io/portfolio/)
+
 
 ## Usage
 My Portfolio has links in the navigation bar which jumps to the corresponding section when clicked. There is also a resume link in the navigation bar which opens a new page with my resume. The portfolio has a brief about me and in the work section a gridbox with my projects. Only the first project is currently clickable but in the future more projects will be added so that when clicked a page will open to the corresponding application. Finally in the contact section my phone number is provided, my email which when clicked directs to your mail to email me directly and my github page with a link. More will be added to the contact section in the future such as a Linkedin page.
+
+The screenshot below is how the website looks in a deskptop screen.
+
+![Alt text](/assets/images/Screenshot.png)
 
 ## License
 
