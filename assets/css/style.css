@@ -28,8 +28,8 @@ header {
 header h1 {
   background-color: #3be5eb; 
   color: #31343d; 
-  font-size: 70px;
-  padding: 0 100px;
+  font-size: 64px;
+  padding: 0 20px;
   border: 2px solid #3be5eb; 
   display: inline-block; 
   margin: 10; 
@@ -45,7 +45,7 @@ nav li {
 }
 
 nav a {
-  font-size: 30px;
+  font-size: 36px;
   color: #3be5eb;
   font-weight: bold;
   text-decoration: none;
@@ -55,6 +55,7 @@ nav a {
 .hero-banner {
   background: url(/assets/images/02-hero-bg.jpg) center/cover no-repeat;
   height: 300px;
+  width: 100%;
   position:relative;
 
 }
@@ -64,14 +65,15 @@ nav a {
   position: absolute;
   bottom: 20px;
   right: 20px;
-  padding: 0px;
+  padding: 10px;
   background-color: #3be5eb;
   font-size: 30px;
   color: #31343d;
 }
 
 .page-wrapper {
-  padding-left: 200px; 
+  max-width: 100%;
+  padding-left: 100px; 
   padding-top: 10px;
 
 }
@@ -103,8 +105,7 @@ nav a {
 /* Work gridbox section */
 
 .project-grid {
-  width: 1800px;
-  height: 1000px;
+  width: 80%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 2fr 1fr;
@@ -127,6 +128,8 @@ nav a {
   transition: filter 0.3s;
   cursor: pointer;
   filter: grayscale(60%);
+  min-height: 300px;
+  
   
 }
 
