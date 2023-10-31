@@ -53,7 +53,7 @@ nav a {
 }
 
 .hero-banner {
-  background: url(/assets/images/02-hero-bg.jpg) center/cover no-repeat;
+  background: url(../images/02-hero-bg.jpg) center/cover no-repeat;
   height: 300px;
   width: 100%;
   position:relative;
@@ -158,15 +158,15 @@ nav a {
 }
 
 .project1 {
-  background-image: url(/assets/images/horiseon.png.png);
+  background-image: url(../images/horiseon.png.png);
 }
 
 .project2 {
-  background-image: url(/assets/images/02-portfolio-2.jpg);
+  background-image: url(../images/02-portfolio-2.jpg);
 }
 
 .project3 {
-  background-image: url(/assets/images/02-portfolio-3.jpg);
+  background-image: url(../images/02-portfolio-3.jpg);
 }
 
 .overlay-link {
