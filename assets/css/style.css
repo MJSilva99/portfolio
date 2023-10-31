@@ -100,3 +100,32 @@ nav a {
   left:  230px; 
 }
 
+/* Work section */
+
+.project-grid {
+  width: 1800px;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  margin: 20px;
+  padding: 20px;
+}
+
+.project1 {
+  grid-column: span 2;
+  position: relative;
+}
+
+.project-item {
+  border: 7px solid #3be5eb;
+  padding: 40px;
+  background-size: cover;
+  background-position: center no-repeat;
+  position: relative;
+  margin: 10px;
+  transition: filter 0.3s;
+  cursor: pointer;
+  filter: grayscale(60%);
+  
+}
