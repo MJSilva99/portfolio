@@ -100,7 +100,7 @@ nav a {
   left:  230px; 
 }
 
-/* Work section */
+/* Work gridbox section */
 
 .project-grid {
   width: 1800px;
@@ -128,4 +128,40 @@ nav a {
   cursor: pointer;
   filter: grayscale(60%);
   
+}
+
+.project-description {
+  position: absolute;
+  bottom: 20px; /* Adjust the vertical position */
+  left: 0; /* Adjust the horizontal position */
+  color: black; /* Text color */
+  background: #3be5eb; /* Background color with transparency */
+  padding: 10px;
+  border-radius: 0;
+  width: auto;
+  height: auto;
+}
+
+
+.project-description h3 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.project-description p {
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.project1 {
+  background-image: url(/assets/images/horiseon.png.png);
+}
+
+.project2 {
+  background-image: url(/assets/images/02-portfolio-2.jpg);
+}
+
+.project3 {
+  background-image: url(/assets/images/02-portfolio-3.jpg);
 }
