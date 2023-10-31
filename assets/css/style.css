@@ -91,4 +91,12 @@ nav a {
   color: #31343d
 }
 
+.page-section::after {
+  content: "";
+  border-left: thick solid #31343d; 
+  position: absolute; 
+  top: 20px;
+  bottom: 0;
+  left:  230px; 
+}
 
